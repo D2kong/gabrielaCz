@@ -1,8 +1,8 @@
 var settings = {
   particles: {
     length: 500,
-    duration: 2,
-    velocity: 100,
+    duration: 3,
+    velocity: 250,
     effect: -0.75,
     size: 30,
   },
@@ -236,4 +236,5 @@ var ParticlePool = (function () {
     render();
   }, 10);
 })(document.getElementById("pinkboard"));
+
 
